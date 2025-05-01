@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi, I'm Suraj Kumar – a frontend developer passionate about building clean, user-friendly web applications. View my portfolio to see my projects and skills.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Suraj Kumar | Frontend Developer Portfolio">
+
+    <title>Suraj Kumar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/FAVI.png" type="image/png">
+
+</head>
+<body>
+    <header>
+        <div class="header-name">
+            <h1>Suraj <span>Kumar</span></h1>
+        </div>
+        <div class="header-section" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <main>
+        <div class="hero-section" id="home">
+            <div class="hero-img">
+                <img src="assets/img2.jpg" alt="myimage">
+            </div>
+            <div class="hero-info">
+                <h3>Hey I'm <span>Suraj</span></h3>
+                <h2>I'm a <span id="changing-text"></span></h2>
+                <p>Full Stack Web Developer passionate about building responsive, modern websites and web apps with clean, efficient code.</p>
+                <div class="hero-icons">
+                    <a href="https://github.com/dev-surajkumar" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/suraj-kumar-aba7aa358/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <button onclick="handleContact()">Hire Me</button>
+            </div>
+        </div>
+        <div class="about-section" id="about">
+            <h2>About <span>Me</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>I’m a passionate Full Stack Web Developer with a strong focus on building responsive, user-friendly web applications. My expertise spans both frontend and backend technologies, allowing me to create seamless digital experiences from start to finish. I prioritize crafting clean, scalable code while ensuring a smooth user experience across all devices.
+
+                Before diving into any project, I dedicate time to thorough research, understanding user needs, and selecting the best tools for the job. This research-driven approach allows me to deliver intuitive UI/UX designs that not only look great but also function flawlessly.
+                
+                I work with modern technologies like HTML, CSS, JavaScript, and backend frameworks to build efficient solutions. Whether it’s creating a dynamic website or developing a full-stack application, I am committed to producing high-quality work that meets both technical and design standards.
+                
+                I'm excited about new challenges and continuously learning to stay ahead in this ever-evolving field.</p>
+        </div>
+        <div class="skills" id="skills">
+            <h2>My <span>Skills</span></h2>
+            <div class="skills-icon">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p>CSS</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <p>JS</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <p>REACT</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-flutter"></i>
+                    <p>FLUTTER</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-node-js"></i>
+                    <p>NODE js</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <p>MONGODB</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <p>BOOTSTRAP</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-git-alt"></i>
+                    <p>GIT</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <p>GITHUB</p>
+                </div>
+            </div>
+        </div>
+        <div class="projects" id="projects">
+            <h2>Sample <span>Projects</span></h2>
+            <div class="project-box">
+                <div>
+                    <img src="assets/react.png" alt="mini">
+                    <a href="https://dev-surajkumar.github.io/My-Mini-Project/">React Project</a>
+                </div>
+                <div>
+                    <img src="assets/qz.png" alt="quiz app">
+                    <a href="https://dev-surajkumar.github.io/My-Quizz-App/">Dynamic Quiz App</a>
+                </div>
+                <div>
+                    <img src="assets/amazon.png" alt="amazon">
+                    <a href="https://dev-surajkumar.github.io/Amazon-clone/">Amazon Clone</a>
+                </div>
+                <div>
+                    <img src="assets/dd1.png" alt="doordash">
+                    <a href="https://dev-surajkumar.github.io/DoorDash/">DoorDash Clone</a>
+                </div>
+                <div>
+                    <img src="assets/3d.png" alt="3dslider">
+                    <a href="https://dev-surajkumar.github.io/3D-Slider-With-CSS-animation/">3D Slider</a>
+                </div>
+                <div>
+                    <img src="assets/2.png" alt="travel">
+                    <a href="#">Travel Website</a>
+                </div>
+                <div>
+                    <img src="assets/myt.png" alt="mytunes">
+                    <a href="#">My Tunes</a>
+                </div>
+                <div>
+                    <img src="assets/kd1.png" alt="kedia">
+                    <a href="#">Kedia</a>
+                </div>
+                <div>
+                    <img src="assets/na1.png" alt="news">
+                    <a href="#">React News App</a>
+                </div>
+                <div>
+                    <img src="assets/ma1.png" alt="movie">
+                    <a href="#">Movie App</a>
+                </div>
+            </div>
+        </div>
+        <div class="services" id="services">
+            <h2>My <span>Services</span></h2>
+            <div class="services-box">
+                <div class="service-img">
+                    <img src="assets/gigmain.jpg" alt="gig">
+                </div>
+                <div class="service-info">
+                    <h2>Full Stack Website Development</h2>
+                    <p>I craft complete full stack websites from the ground up — combining powerful backend functionality with sleek, responsive front-end design. Whether it's a portfolio, business site, or dynamic web app, I ensure fast performance, modern UI/UX, and a seamless user experience across all devices.</p>
+                    <button onclick="handleContact()">Hire Me</button>
+                </div>
+            </div>
+            <div class="services-box">
+                
+                <div class="service-info">
+                    <h2>Landing Pages & Micro Sites</h2>
+                    <p>I design and develop clean, modern landing pages and small websites that grab attention and drive results. With responsive layouts, smooth navigation, and conversion-focused design, your brand’s message will shine across all devices — perfect for portfolios, startups, product launches, and personal or business needs.</p>
+                    <button onclick="handleContact()">Hire Me</button>
+                </div>
+                <div class="service-img">
+                    <img class="special" src="assets/giglanding.jpg" alt="giglanding">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="contact" id="contact">
+            <div class="contact-info">
+                <h2>Contact Me</h2>
+                <h3>Let's Work Together</h3>
+                <p>Have a project in mind or a question to ask? Let’s connect! I’m always open to discussing new ideas, collaborating on exciting projects, or simply offering guidance. Drop a message through the form below — I’ll get back to you as soon as possible. Let’s build something great together.</p>
+                <p class="send-icon"><i class="fa-solid fa-paper-plane"></i> surajkumar.codes@gmail.com</p>
+
+                <div class="hero-icons">
+                    <a href="https://github.com/dev-surajkumar" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/suraj-kumar-aba7aa358/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <form  id="contact-form">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email"  name="email" placeholder="Enter Your Email">
+                <input type="text" name="subject" placeholder="Enter Your Message">
+                <textarea name="message" id="" rows="10" placeholder="Please type your message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
